@@ -28,7 +28,7 @@ import jakarta.validation.Valid;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class TemaController {
     
-    @Autowired
+    @Autowired //Injeção de Dependência, instancia.
     private TemaRepository temaRepository;
     
     @GetMapping
